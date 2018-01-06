@@ -9,8 +9,10 @@ layout: none
 
   <link rel="stylesheet" href= "{{ site.github.url }}/css/main.css">
   <link rel="stylesheet" href= "{{ site.github.url }}/css/post.css">
+  <link rel="stylesheet" href= "{{ site.github.url }}/css/baguetteBox.min.css">
+  <link rel="stylesheet" href= "{{ site.github.url }}/css/smallHeader.css">
   
-	<link rel="stylesheet" href= "{{ site.github.url }}/css/smallHeader.css">
+  <script src="{{ site.github.url }}/scripts/baguetteBox.min.js"></script>
   <script src="{{ site.github.url }}/scripts/jquery-and-bigfoot.js"></script>
   <script src="{{ site.github.url }}/scripts/post.js"></script>
 
@@ -42,8 +44,13 @@ layout: none
         </div>
     </div>
   </div>
-
+  
   <article class="post h-entry">
+    
+    {% if page.feature-image != '' %}
+      <img src="{{ page.feature-image }}"</img>
+    {% endif %}
+
     <header class="entry-header">
       {% if post.title != '' %}
       <h1 class="post-title p-name">
@@ -54,8 +61,7 @@ layout: none
     {% endif %}
     </header>
 
-
-    <div class="e-content">
+    <div class="e-content" id="postMain">
       {% if post.content %}
         {{ post.content }}
       {% else %}

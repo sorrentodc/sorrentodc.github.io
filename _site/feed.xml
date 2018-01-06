@@ -5,17 +5,39 @@
     <description>A Jekyll quick start to getting up and going with the indieweb.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 06 Jan 2018 14:21:21 +0800</pubDate>
-    <lastBuildDate>Sat, 06 Jan 2018 14:21:21 +0800</lastBuildDate>
+    <pubDate>Sat, 06 Jan 2018 16:45:24 +0800</pubDate>
+    <lastBuildDate>Sat, 06 Jan 2018 16:45:24 +0800</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
         <title>Meet the team</title>
-        <description>&lt;h2 id=&quot;dentists&quot;&gt;Dentists&lt;/h2&gt;
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#dentists&quot; id=&quot;markdown-toc-dentists&quot;&gt;Dentists&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#dr-reece-orbuck&quot; id=&quot;markdown-toc-dr-reece-orbuck&quot;&gt;Dr Reece Orbuck&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#dr-simon-kenrick&quot; id=&quot;markdown-toc-dr-simon-kenrick&quot;&gt;Dr Simon Kenrick&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#hygienists&quot; id=&quot;markdown-toc-hygienists&quot;&gt;Hygienists&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#sara-drake&quot; id=&quot;markdown-toc-sara-drake&quot;&gt;Sara Drake&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#emma-clarke&quot; id=&quot;markdown-toc-emma-clarke&quot;&gt;Emma Clarke&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#reception&quot; id=&quot;markdown-toc-reception&quot;&gt;Reception&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#colleen-cousens&quot; id=&quot;markdown-toc-colleen-cousens&quot;&gt;Colleen Cousens&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#dental-nurses&quot; id=&quot;markdown-toc-dental-nurses&quot;&gt;Dental Nurses&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#tegan-holtom&quot; id=&quot;markdown-toc-tegan-holtom&quot;&gt;Tegan Holtom&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#trish-laruccia&quot; id=&quot;markdown-toc-trish-laruccia&quot;&gt;Trish Laruccia&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;dentists&quot;&gt;Dentists&lt;/h2&gt;
 
 &lt;h3 id=&quot;dr-reece-orbuck&quot;&gt;Dr Reece Orbuck&lt;/h3&gt;
-
-&lt;p&gt;Dr Orbuck has been working with us for the last 4 years. After completing his Bachelor of Dental Science Degree at the University of Western Australia, Reece moved to Bunbury and spent four years providing treatment to the community in and around Bunbury.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/media/staff/thumbnails/reece.jpg&quot; alt=&quot;reece thumbnail&quot; /&gt;
+Dr Orbuck has been working with us for the last 4 years. After completing his Bachelor of Dental Science Degree at the University of Western Australia, Reece moved to Bunbury and spent four years providing treatment to the community in and around Bunbury.&lt;/p&gt;
 
 &lt;p&gt;Reece was born in Victoria where he spent his younger years in the town of Torquay before moving to Perth with his family where he completed his high school education, achieving outstanding results.&lt;/p&gt;
 
@@ -24,22 +46,24 @@
 &lt;p&gt;The remainder of this time is spent on the tennis court developing a rather intimidating forehand.&lt;/p&gt;
 
 &lt;h3 id=&quot;dr-simon-kenrick&quot;&gt;Dr Simon Kenrick&lt;/h3&gt;
-
-&lt;p&gt;Simon, alter ego “Spiderman”, has been a principle dentist at SDC for X years, providing quality care for patients of all ages. Is not available for appointments on Fridays because hes at the golf course.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/media/staff/thumbnails/simon.jpg&quot; alt=&quot;simon thumbnail&quot; /&gt;
+Simon, alter ego “Spiderman”, has been a principle dentist at SDC for X years, providing quality care for patients of all ages. Is not available for appointments on Fridays because hes at the golf course.&lt;/p&gt;
 
 &lt;h2 id=&quot;hygienists&quot;&gt;Hygienists&lt;/h2&gt;
 
 &lt;h3 id=&quot;sara-drake&quot;&gt;Sara Drake&lt;/h3&gt;
-&lt;p&gt;Sara is available for bookings all through the day in Wednesdays.[^1](basic footnote content)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/media/staff/thumbnails/sara.jpg&quot; alt=&quot;sara thumbnail&quot; /&gt;
+Sara is available for bookings all through the day in Wednesdays.[^1](basic footnote content)&lt;/p&gt;
 
 &lt;h3 id=&quot;emma-clarke&quot;&gt;Emma Clarke&lt;/h3&gt;
-&lt;p&gt;Emma divides her time working for us at Sorrento, as well as an orthodontic clinic. Is available for appointments on Fridays.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/media/staff/thumbnails/emma.jpg&quot; alt=&quot;emma thumbnail&quot; /&gt;
+Emma divides her time working for us at Sorrento, as well as an orthodontic clinic. Is available for appointments on Fridays.&lt;/p&gt;
 
 &lt;h2 id=&quot;reception&quot;&gt;Reception&lt;/h2&gt;
 
 &lt;h3 id=&quot;colleen-cousens&quot;&gt;Colleen Cousens&lt;/h3&gt;
-
-&lt;p&gt;Colleen’s friendly face has welcomed you to Sorrento Dental since 1990. As our practice manager and head receptionist, Colleen keeps the practice running smoothly each day, all while making appointment bookings. Colleen also has extensive experience chair-side, having trained as a dental clinical assistant in Busselton, which gives her the insight to assess many presenting conditions and schedule your appointments appropriately, as well as preparing the clinicians to manage your case.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/media/staff/thumbnails/colleen.jpg&quot; alt=&quot;colleen thumbnail&quot; /&gt;
+Colleen’s friendly face has welcomed you to Sorrento Dental since 1990. As our practice manager and head receptionist, Colleen keeps the practice running smoothly each day, all while making appointment bookings. Colleen also has extensive experience chair-side, having trained as a dental clinical assistant in Busselton, which gives her the insight to assess many presenting conditions and schedule your appointments appropriately, as well as preparing the clinicians to manage your case.&lt;/p&gt;
 
 &lt;p&gt;Colleen was born and raised in Western Australia, and completed her schooling in Busselton.&lt;/p&gt;
 
@@ -50,12 +74,14 @@
 &lt;h2 id=&quot;dental-nurses&quot;&gt;Dental Nurses&lt;/h2&gt;
 
 &lt;h3 id=&quot;tegan-holtom&quot;&gt;Tegan Holtom&lt;/h3&gt;
-&lt;p&gt;Tegan started working at Sorrento dental in 2011, after completing her training at Dental Nursing Australia in South Perth in 2008. Tegan grew up in Denmark in the South West of WA and attended John Curtin High Senior High in Fremantle.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/media/staff/thumbnails/tegan.jpg&quot; alt=&quot;tegan thumbnail&quot; /&gt;
+Tegan started working at Sorrento dental in 2011, after completing her training at Dental Nursing Australia in South Perth in 2008. Tegan grew up in Denmark in the South West of WA and attended John Curtin High Senior High in Fremantle.&lt;/p&gt;
 
 &lt;p&gt;In the Summer Tegan loves Paddleboarding and spends many weekend with her family and 4WD, exploring WA and camping. She is hoping to travel a little further from home in the future, to maybe visit Japan and see snow for the first time!&lt;/p&gt;
 
 &lt;h3 id=&quot;trish-laruccia&quot;&gt;Trish Laruccia&lt;/h3&gt;
-&lt;p&gt;Trish is works Monday through Thursday at Sorrento dental clinic, chair side as a dental clinical assistant. She has been with us since 2005, following a career working as a flight attendant for qantas. Her hospitality skills are invaluable to us, and she excels at making your experience more comfortable and engaging when you come to visit us for an appointment.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/media/staff/thumbnails/trish.jpg&quot; alt=&quot;trish thumbnail&quot; /&gt;
+Trish is works Monday through Thursday at Sorrento dental clinic, chair side as a dental clinical assistant. She has been with us since 2005, following a career working as a flight attendant for qantas. Her hospitality skills are invaluable to us, and she excels at making your experience more comfortable and engaging when you come to visit us for an appointment.&lt;/p&gt;
 
 &lt;p&gt;Trish has Sicilian heritage, and speaks fluent Italian. She was raised here in WA and went to school in Lesmurdie. Currently, a Trish is looking forward to catching up with family on a European vacation in 2018.&lt;/p&gt;
 
