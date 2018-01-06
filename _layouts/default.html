@@ -12,6 +12,9 @@
 	<link rel="stylesheet" href= "{{ site.github.url }}/css/main.css">
 	{% if page.url == '/' %}
 	<link rel="stylesheet" href= "{{ site.github.url }}/css/styles.css">
+	<script src="{{ site.github.url }}/scripts/baguetteBox.min.js"></script>
+	<script src="{{ site.github.url }}/scripts/jquery-and-bigfoot.js"></script>
+	<script src="{{ site.github.url }}/scripts/main.js"></script>
 	{% endif %}
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.github.url | prepend: site.url }}">
 	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.github.url | prepend: site.url }}">
