@@ -38,8 +38,14 @@ title: Sorrento Dental Clinic
           <div class="post_category_title">Practice Information</div>
           <div class="posts">
             {% for post in paginator.posts %}
-              <a class= "post_header" href="{{ site.baseurl }}{{ post.url }}">
-                <div class= "post_title">
+            <a class= "post_header" href="{{ site.baseurl }}{{ post.url }}">
+              {% if post.thumbnail-image %}
+                <div class= "post_thumb_box">
+                  <img src="{{ post.thumbnail-image }}" class= "post_thumbnail">
+                </div>
+                <div class= "post_thumb_flexfix"></div>  
+              {% endif %}  
+              <div class= "post_title">
                   {{ post.title }}
                 </div>
               </a>
