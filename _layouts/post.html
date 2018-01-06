@@ -47,9 +47,23 @@ layout: none
   
   <article class="post h-entry">
     
-    {% if page.feature-image %}
-      <img src="{{ page.feature-image }}"</img>
-    {% endif %}
+    <div class="hero">
+        <div id="hero-image-wrapper">
+          {% if page.feature-image %}
+            <img id="hero-image" src="{{ page.feature-image }}">
+          {% else %}
+            <img id="hero-image" src="/media/homepage/surgery.jpg">
+          {% endif %}
+        </div>
+        <div id="post-title-wrapper">
+            <div id="post-title-inner">
+                <div id="post-title">{{ page.title }}</div>
+                <div class='post-date'>
+                    <time>{{ page.date | date: '%d %B, %Y' }}</time>
+                </div>
+            </div>
+        </div>
+      </div>  
 
     <header class="entry-header">
       {% if post.title != '' %}
