@@ -1,3 +1,7 @@
+<script src="/scripts/baguetteBox.min.js"></script>
+<script src="/scripts/jquery-and-bigfoot.js"></script>
+<script src="/scripts/main.js"></script>
+
 <div id="main">
     <img id="header_background" src="/media/icons/background.jpg"/>
     <div id="header">
@@ -17,5 +21,15 @@
             <img src="/media/icons/map.svg"/ class="contact_icon">
             <div class="contact_text">32 Seacrest drive, Sorrento 6020</div>
         </a>
-	</div>
+    </div>
+    <script>baguetteBox.run('.image_carousel')</script>
+    <div class="image_carousel">
+        {% for image in site.static_files %}
+            {% if image.path contains 'media/homepage_thumbnails' %}
+                <a class="carousel_item" href="{{ site.baseurl }}{{ image.path }}">
+                    <img src="{{ site.baseurl }}media/homepage/{{ image.name }}" class="carousel_image2">
+                </a>
+            {% endif %}
+        {% endfor %}
+    </div>
 </div>
