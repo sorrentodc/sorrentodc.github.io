@@ -5,21 +5,27 @@
     <description>A Jekyll quick start to getting up and going with the indieweb.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 06 Jan 2018 16:56:47 +0800</pubDate>
-    <lastBuildDate>Sat, 06 Jan 2018 16:56:47 +0800</lastBuildDate>
+    <pubDate>Sat, 06 Jan 2018 16:59:55 +0800</pubDate>
+    <lastBuildDate>Sat, 06 Jan 2018 16:59:55 +0800</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
         <title>Opening Hours</title>
         <description>&lt;h1 id=&quot;practice-opening-hours&quot;&gt;Practice opening hours&lt;/h1&gt;
 
-&lt;p&gt;Sunday: Closed
-Monday: Closed
-Tuesday: 8:30am - 6pm
-Wednesday: 8:30am - 8pm
-Thursday: 8:30am - 6pm
-Friday: 8:30am - 5pm
-Saturday: 8:30am - 4pm (Once per fortnight)&lt;/p&gt;
+&lt;p&gt;Sunday: Closed&lt;/p&gt;
+
+&lt;p&gt;Monday: Closed&lt;/p&gt;
+
+&lt;p&gt;Tuesday: 8:30am - 6pm&lt;/p&gt;
+
+&lt;p&gt;Wednesday: 8:30am - 8pm&lt;/p&gt;
+
+&lt;p&gt;Thursday: 8:30am - 6pm&lt;/p&gt;
+
+&lt;p&gt;Friday: 8:30am - 5pm&lt;/p&gt;
+
+&lt;p&gt;Saturday: 8:30am - 4pm (Once per fortnight)&lt;/p&gt;
 </description>
         <pubDate>Sat, 06 Jan 2018 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/hours</link>

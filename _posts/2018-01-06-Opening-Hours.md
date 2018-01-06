@@ -10,9 +10,15 @@ tags:
 # Practice opening hours
 
 Sunday: Closed
+
 Monday: Closed
+
 Tuesday: 8:30am - 6pm
+
 Wednesday: 8:30am - 8pm
+
 Thursday: 8:30am - 6pm
+
 Friday: 8:30am - 5pm
+
 Saturday: 8:30am - 4pm (Once per fortnight)
