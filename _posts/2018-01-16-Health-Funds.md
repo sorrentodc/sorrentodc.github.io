@@ -9,4 +9,4 @@ tags:
 - staff
 ---
 
-We are a HBF preferred provider
+We are a HBF preferred provider, but we accept all Health Funds.
