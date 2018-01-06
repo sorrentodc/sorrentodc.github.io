@@ -7,14 +7,14 @@
 
 # Site settings
 lang: en
-title: Jekyll-IndieWeb
-email: your-email@domain.com
-description: A Jekyll quick start to getting up and going with the indieweb.
+title: Sorrento Dental Clinic
+email: reception@sorrento.dental
+description: Business website for Sorrento Dental Clinic
 # Webmentions - leave blank (remove "yes") if you would not like to receive & display webmentions from other sites
 webmentions:
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://sorrento.dental" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 instagram_username: jekyll
@@ -29,7 +29,7 @@ facebook_url: http://facebook.com
 
 
 # Can be over ridden with author: in Front Matter
-author: Your Name
+author: Reece
 
 # Expecting a full url, not relative to site.url
 author_img: https://avatars3.githubusercontent.com/u/3083652
