@@ -2,7 +2,8 @@
 layout: post
 title:  "Meet the team"
 date:   2018-01-06
-categories: staff
+tags: 
+- staff
 ---
 
 

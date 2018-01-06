@@ -5,8 +5,8 @@
     <description>A Jekyll quick start to getting up and going with the indieweb.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 06 Jan 2018 14:17:48 +0800</pubDate>
-    <lastBuildDate>Sat, 06 Jan 2018 14:17:48 +0800</lastBuildDate>
+    <pubDate>Sat, 06 Jan 2018 14:19:42 +0800</pubDate>
+    <lastBuildDate>Sat, 06 Jan 2018 14:19:42 +0800</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -62,11 +62,11 @@
 &lt;p&gt;Trish surprised us all in 2016, winning the Sorrento Dental staff footy tipping competition. Not really an AFL fan, it remain a mystery to this day (ahem…Dennis Cometti on the radio) how she managed to pull of that win!&lt;/p&gt;
 </description>
         <pubDate>Sat, 06 Jan 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/staff/2018/01/06/Meet-the-team.html</link>
-        <guid isPermaLink="true">http://localhost:4000/staff/2018/01/06/Meet-the-team.html</guid>
-        
+        <link>http://localhost:4000/2018/01/06/Meet-the-team.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/01/06/Meet-the-team.html</guid>
         
         <category>staff</category>
+        
         
       </item>
     
