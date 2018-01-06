@@ -1,6 +1,3 @@
----
-layout: default
----
 <article class="post h-entry">
   <header class="entry-header">
 	  {% if post.title != '' %}
@@ -19,31 +16,17 @@ layout: default
   	</h1>
   {% endif %}
   </header>
-  {% if page.mf-like-of != null %}
-  {% include post-like.html post=page %}
-{% else %}
-  {% include post-content.html post=page %}
-  {% endif %}
-  <footer class="entry-footer">
 
-      <div class="h-card p-author">
-		        <a href="{{ site.github.url }}" class="entry-author-link" rel="author">
-                  {% if site.author_img %}
-                  <div class="auth-img">
-                    <img src="{{ site.author_img }}" alt="{{ site.author }}" class="u-photo">
-                  </div>
-                  {% endif %}
-                  {% include author.html %}
-            </a>
-      </div>
-      <div class="meta-wrap">
-        <p><a href="{{ post.url | prepend: site.github.url }}">{{ page.title }} </a> posted on <time datetime="{{ page.date | date_to_xmlschema }}" class="dt-time post-date">{{ page.date | date_to_string }}</time>.</p>
-        <p>This entry has been tagged with the keywords: {% for tags in page.tags %}<span class="tag">{{ tags }} </span>{% endfor %}</p>
-    </div>
 
-</footer>
+  
+
+  <div class="e-content">
+    {% if post.content %}
+      {{ post.content }}
+    {% else %}
+      {{ content }}
+    {% endif %}
+  </div>
+  
 </article>
 
-{% if site.webmentions %}
-{% include webmentions.html %}
-{% endif %}

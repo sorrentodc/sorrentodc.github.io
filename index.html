@@ -1,18 +1,55 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  {% include post.html post=post %}
-  {% endfor %}
-</div>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-<div class="pagination" role="navigation">
-  {% if paginator.next_page %}
-  <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.github.url }}">Older</a> {% else %}
-  <span class="pagination-item older">Older</span> {% endif %} {% if paginator.previous_page %}
-  <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.github.url }}">Newer</a> {% else %}
-  <span class="pagination-item newer">Newer</span> {% endif %}
-</div>
+	<link rel="stylesheet" href= "{{ site.github.url }}/css/main.css">
+	{% if page.url == '/' %}
+		<link rel="stylesheet" href= "{{ site.github.url }}/css/styles.css">
+		<link rel="stylesheet" href= "{{ site.github.url }}/css/baguetteBox.min.css">
+		
+
+		<script src="{{ site.github.url }}/scripts/baguetteBox.min.js"></script>
+		<script src="{{ site.github.url }}/scripts/jquery-and-bigfoot.js"></script>
+		<script src="{{ site.github.url }}/scripts/main.js"></script>
+	{% else %}
+		<link rel="stylesheet" href= "{{ site.github.url }}/css/smallHeader.css">
+	{% endif %}
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.github.url | prepend: site.url }}">
+	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.github.url | prepend: site.url }}">
+	{% seo %}
+</head>
+
+<body class="h-feed">
+
+	{% include hcard.html %}
+
+	<div id="wrapper">
+		<main role="main">
+			<div class="content">
+				<div class="posts">
+          {% for post in paginator.posts %}
+          {% include post.html post=post %}
+          {% endfor %}
+        </div>
+        
+        
+        <div class="pagination" role="navigation">
+          {% if paginator.next_page %}
+          <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.github.url }}">Older</a> {% else %}
+          <span class="pagination-item older">Older</span> {% endif %} {% if paginator.previous_page %}
+          <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.github.url }}">Newer</a> {% else %}
+          <span class="pagination-item newer">Newer</span> {% endif %}
+        </div>
+			</div>
+		</main>
+	</div>
+</body>
+
+</html>
