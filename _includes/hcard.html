@@ -1,31 +1,29 @@
-<div id="main">
-    <img id="header_background" src="/media/icons/background.jpg"/>
-    <div id="header">
-        <img id="practice_logo"src="/media/icons/sdcLogoPlain.jpg"/>
-        <div id="practice_name">Sorrento Dental Clinic</div>
-    </div>
-    <div id="contact_button_container">
-        <a href="tel:0892462255" id="call_button" class="contact_button">
-            <img src="/media/icons/phone.svg" class="contact_icon">
-            <div class="contact_text" > (08) 9246 2255</div>
-        </a>
-        <a href="mailto:reception@sorrento.dental?Subject=Patient%20enquiry" id="email_button" class="contact_button">
-            <img src="/media/icons/email.svg"/ class="contact_icon">
-            <div class="contact_text">reception@sorrento.dental</div>
-        </a>
-        <a id="map_button" class="contact_button" href="http://maps.apple.com/?address=32+Seacrest+Drive,+Sorrento+WA+Australia">
-            <img src="/media/icons/map.svg"/ class="contact_icon">
-            <div class="contact_text">32 Seacrest drive, Sorrento 6020</div>
-        </a>
-    </div>
-    <script>baguetteBox.run('.image_carousel')</script>
-    <div class="image_carousel">
-        {% for image in site.static_files %}
-            {% if image.path contains 'media/homepage_thumbnails' %}
-                <a class="carousel_item" href="{{ site.baseurl }}media/homepage/{{ image.name }}">
-                    <img src="{{ site.baseurl }}{{ image.path }}" class="carousel_image2">
-                </a>
-            {% endif %}
-        {% endfor %}
-    </div>
+<img id="header_background" src="/media/icons/background.jpg"/>
+<div id="header">
+    <img id="practice_logo"src="/media/icons/sdcLogoPlain.jpg"/>
+    <div id="practice_name">Sorrento Dental Clinic</div>
+</div>
+<div id="contact_button_container">
+    <a href="tel:0892462255" id="call_button" class="contact_button">
+        <img src="/media/icons/phone.svg" class="contact_icon">
+        <div class="contact_text" > (08) 9246 2255</div>
+    </a>
+    <a href="mailto:reception@sorrento.dental?Subject=Patient%20enquiry" id="email_button" class="contact_button">
+        <img src="/media/icons/email.svg"/ class="contact_icon">
+        <div class="contact_text">reception@sorrento.dental</div>
+    </a>
+    <a id="map_button" class="contact_button" href="http://maps.apple.com/?address=32+Seacrest+Drive,+Sorrento+WA+Australia">
+        <img src="/media/icons/map.svg"/ class="contact_icon">
+        <div class="contact_text">32 Seacrest drive, Sorrento 6020</div>
+    </a>
+</div>
+<script>baguetteBox.run('.image_carousel')</script>
+<div class="image_carousel">
+    {% for image in site.static_files %}
+        {% if image.path contains 'media/homepage_thumbnails' %}
+            <a class="carousel_item" href="{{ site.baseurl }}media/homepage/{{ image.name }}">
+                <img src="{{ site.baseurl }}{{ image.path }}" class="carousel_image2">
+            </a>
+        {% endif %}
+    {% endfor %}
 </div>

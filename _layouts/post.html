@@ -1,32 +1,69 @@
-<article class="post h-entry">
-  <header class="entry-header">
-	  {% if post.title != '' %}
-  	<h1 class="post-title p-name">
-  		{% if post.mf-bookmark %}
-  			<a class="u-bookmark-of" href="{{page.mf-bookmark | first}}">{{post.title}}</a>
-  		{% elsif post.mf-bookmark-of %}
-  			<a class="u-bookmark-of" href="{{page.mf-bookmark-of | first}}">{{post.title}}</a>
-  		{% elsif post.mf-repost-of %}
-  			<a class="u-repost-of" href="{{page.mf-repost-of | first}}">{{post.title}}</a>
-  		{% else %}
-  		<a class="u-url" href="{{ site.github.url }}{{ page.url }}">
-  			{{ page.title }}
-  		</a>
-  		{% endif %}
-  	</h1>
-  {% endif %}
-  </header>
+---
+layout: none
+---
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+  <link rel="stylesheet" href= "{{ site.github.url }}/css/main.css">
+  <link rel="stylesheet" href= "{{ site.github.url }}/css/post.css">
   
+	<link rel="stylesheet" href= "{{ site.github.url }}/css/smallHeader.css">
+  <script src="{{ site.github.url }}/scripts/jquery-and-bigfoot.js"></script>
+  <script src="{{ site.github.url }}/scripts/post.js"></script>
 
-  <div class="e-content">
-    {% if post.content %}
-      {{ post.content }}
-    {% else %}
-      {{ content }}
-    {% endif %}
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.github.url | prepend: site.url }}">
+	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.github.url | prepend: site.url }}">
+  {% seo %}
+</head>
+
+<body>
+  
+  <div id="header">
+    <div id="header_flex">
+        <div id="practice_header_container">
+            <a id="practice_logo" href="/" class="contact_button">
+                <img src="/media/icons/sdcLogoPlain.jpg"/>
+            </a>
+            <div id="practice_name">Sorrento Dental Clinic</div>
+        </div>
+        <div id="contact_button_container">
+            <a href="tel:0892462255" id="call_button" class="contact_button">
+                <img src="/media/icons/phone.svg" class="contact_icon">
+            </a>
+            <a href="mailto:reception@sorrento.dental?Subject=Patient%20enquiry" id="email_button" class="contact_button">
+                <img src="/media/icons/email.svg"/ class="contact_icon">
+            </a>
+            <a id="map_button" class="contact_button" href="http://maps.apple.com/?address=32+Seacrest+Drive,+Sorrento+WA+Australia">
+                <img src="/media/icons/map.svg"/ class="contact_icon">
+            </a>
+        </div>
+    </div>
   </div>
-  
-</article>
+
+  <article class="post h-entry">
+    <header class="entry-header">
+      {% if post.title != '' %}
+      <h1 class="post-title p-name">
+        <a class="u-url" href="{{ site.github.url }}{{ page.url }}">
+          {{ page.title }}
+        </a>
+      </h1>
+    {% endif %}
+    </header>
+
+
+    <div class="e-content">
+      {% if post.content %}
+        {{ post.content }}
+      {% else %}
+        {{ content }}
+      {% endif %}
+    </div>
+    
+  </article>
+  </body>
+
 
