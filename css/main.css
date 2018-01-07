@@ -118,12 +118,15 @@ blockquote {
   margin-left: .5rem; }
 .post p {
   font-size: 14px;
-  margin: 1rem 0;
-display: inline; }
+  margin: 1rem 0; }
   .post p em {
     font-style: italic; }
   .post p strong {
     font-weight: 700; }
+
+hr {
+  margin-top: 50px;
+}
 
 code,
 pre {
