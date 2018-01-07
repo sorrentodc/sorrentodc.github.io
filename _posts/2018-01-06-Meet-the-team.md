@@ -23,7 +23,7 @@ Reece was born in Victoria where he spent his younger years in the town of Torqu
 
 He is skilled in all facets of preventive and general operative dentistry, including the treatment of all age groups. He has developed an interest in the special areas of Endodontic and Prosthodontic treatment. He also has a keen interest in innovative new technologies as they apply to Dentistry, and currently spends much of his non-surgical time at the development level. 
 
-The remainder of this time is spent on the tennis court developing a rather intimidating forehand.
+The remainder of this time is spent on the tennis court developing a rather intimidating forehand. [^1]: he also works on Saturdays
 
 ---
 
@@ -40,8 +40,8 @@ Simon, alter ego "Spiderman", has been a principle dentist at SDC for X years, p
 
 ![sara thumbnail](/media/staff/thumbnails/sara.jpg)
 ##### Sara Drake
-Sara is available for bookings all through the day in Wednesdays.[^1]
-
+Sara is available for bookings all through the day in Wednesdays and Thursdays.[^2]
+[^2]: basic footnote content 
 ---
 
 ![emma thumbnail](/media/staff/thumbnails/emma.jpg)
@@ -86,4 +86,3 @@ Trish has Sicilian heritage, and speaks fluent Italian. She was raised here in W
 Trish surprised us all in 2016, winning the Sorrento Dental staff footy tipping competition. Not really an AFL fan, it remain a mystery to this day (ahem...Dennis Cometti on the radio) how she managed to pull of that win! 
 
 
-[^1]: basic footnote content 
