@@ -24,12 +24,14 @@ Reece was born in Victoria where he spent his younger years in the town of Torqu
 He is skilled in all facets of preventive and general operative dentistry, including the treatment of all age groups. He has developed an interest in the special areas of Endodontic and Prosthodontic treatment. He also has a keen interest in innovative new technologies as they apply to Dentistry, and currently spends much of his non-surgical time at the development level. 
 
 The remainder of this time is spent on the tennis court developing a rather intimidating forehand.
+
 ---
 
 
 ![simon thumbnail](/media/staff/thumbnails/simon.jpg)
 ### Dr Simon Kenrick
 Simon, alter ego "Spiderman", has been a principle dentist at SDC for X years, providing quality care for patients of all ages. Is not available for appointments on Fridays because hes at the golf course. 
+
 ---
 
 
@@ -39,11 +41,13 @@ Simon, alter ego "Spiderman", has been a principle dentist at SDC for X years, p
 ![sara thumbnail](/media/staff/thumbnails/sara.jpg)
 ### Sara Drake
 Sara is available for bookings all through the day in Wednesdays.[^1](basic footnote content)
+
 ---
 
 ![emma thumbnail](/media/staff/thumbnails/emma.jpg)
 ### Emma Clarke
 Emma divides her time working for us at Sorrento, as well as an orthodontic clinic. Is available for appointments on Fridays.
+
 ---
 
 
@@ -58,6 +62,7 @@ Colleen was born and raised in Western Australia, and completed her schooling in
 Outside of business hours Colleen is an avid nature photographer, and some of her best shots are on display around the clinic. She recently took an amazing holiday to Iceland and the United Kingdom, and we look forward to putting up some of the incredible images she took while she was away.
 
 Colleen is passionate about providing great service to our patients and brings about a positive and friendly atmosphere throughout the entire practice.
+
 ---
 
 
@@ -69,6 +74,7 @@ Colleen is passionate about providing great service to our patients and brings a
 Tegan started working at Sorrento dental in 2011, after completing her training at Dental Nursing Australia in South Perth in 2008. Tegan grew up in Denmark in the South West of WA and attended John Curtin High Senior High in Fremantle.
 
 In the Summer Tegan loves Paddleboarding and spends many weekend with her family and 4WD, exploring WA and camping. She is hoping to travel a little further from home in the future, to maybe visit Japan and see snow for the first time!
+
 ---
 
 ![trish thumbnail](/media/staff/thumbnails/trish.jpg)
