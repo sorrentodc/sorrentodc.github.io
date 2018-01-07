@@ -117,9 +117,9 @@ blockquote {
 .post li {
   margin-left: .5rem; }
 .post p {
-  font-size: 20px;
-  font-size: 1.25rem;
-  margin: 1rem 0; }
+  font-size: 14px;
+  margin: 1rem 0;
+display: inline; }
   .post p em {
     font-style: italic; }
   .post p strong {
@@ -193,8 +193,7 @@ h3 {
 h4,
 h5,
 h6 {
-  font-size: 24px;
-  font-size: 1.5rem;
+  font-size: 16px;
   margin-top: 1rem; }
 
 .u-url {
