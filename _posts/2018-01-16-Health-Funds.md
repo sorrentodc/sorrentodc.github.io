@@ -9,4 +9,8 @@ tags:
 - staff
 ---
 
-We are a HBF preferred provider, but we accept all Health Funds.
+Sorrento Dental Clinic accepts all major health funds, offering rebates that are claimable on the spot using our Hicaps system.  
+
+We are HBF preferred providers, which means patients claiming from HBF will ensure they receive their maximum possible rebate, and lowest out-of-pocket costs for treatment. 
+
+If supported, customers are also able to apply their health fund ‘Loyalty Bonus’ covering the complete cost of dental treatment.
